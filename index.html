@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Anne Kariuki - Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav-container">
+        <div class="nav-dots">
+            <div class="nav-dot active" onclick="goToPage(0)"></div>
+            <div class="nav-dot" onclick="goToPage(1)"></div>
+            <div class="nav-dot" onclick="goToPage(2)"></div>
+            <div class="nav-dot" onclick="goToPage(3)"></div>
+            <div class="nav-dot" onclick="goToPage(4)"></div>
+            <div class="nav-dot" onclick="goToPage(5)"></div>
+            <div class="nav-dot" onclick="goToPage(6)"></div>
+        </div>
+    </div>
+
+    <!-- Page Container -->
+    <div class="page-container">
+        <!-- Home Page -->
+        <div class="page active" id="page-0">
+            <div class="page-content home-layout">
+                <div class="hero-left">
+                    <h1 class="hero-title bodoni-title">MARY<br>ANNE<br>KARIUKI</h1>
+                    <p class="hero-subtitle bodoni-subtitle">Where Machine Learning Meets Human Curiosity</p>
+                    <p class="hero-description lato-regular">Fourth-year Computer Science student at Strathmore University.</p>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-image">
+                        <p class="lato-light">Your professional photo goes here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

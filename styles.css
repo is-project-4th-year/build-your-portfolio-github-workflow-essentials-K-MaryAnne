@@ -1,0 +1,98 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font Classes */
+.bodoni-title {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.bodoni-subtitle {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: #f0f4f5;
+    color: #0e0e0e;
+    overflow-x: hidden;
+}
+
+/* Basic Page Structure */
+.page-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-content {
+    max-width: 1400px;
+    width: 100%;
+    height: 90%;
+}
+
+/* Hero Section */
+.home-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-title {
+    font-size: clamp(4rem, 12vw, 8rem);
+    line-height: 0.9;
+    margin-bottom: 2rem;
+    color: #0e0e0e;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    color: #390007;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    width: 70%;
+    height: 70%;
+    background: #9ca0ab;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0f4f5;
+    text-align: center;
+}

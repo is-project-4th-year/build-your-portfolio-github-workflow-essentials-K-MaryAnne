@@ -10,7 +10,7 @@
 ## 2. Deployed Portfolio Link
 
 - **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+  https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-K-MaryAnne/
 
 ## 3. Learnings from the Git Crash Program
 **🧠 What I Thought I'd Learn vs What I Actually Learned**
@@ -49,7 +49,7 @@
 ## 4. Screenshots of Key GitHub Features
 ### A. Milestones and Issues
 
-![Milestones Screenshot](Milestones.png)
+![Milestones Screenshot](assets/Milestones.png)
 
 ### B. Project Board
 
@@ -64,7 +64,11 @@
 
 ### D. Pull Requests
 
-
+![Create new pull request Screenshot](assets/NewPullRequest.png)
+![Create Pull RequestScreenshot](assets/CreatePullRequest.png)
+![Compare and Pull Request Screenshot](assets/Compare.png)
+![Open pull request about to be merge pulled Screenshot](assets/MergePull.png)
+![Merged Pull Request Screenshot](assets/MergedPullRequest.png)
 
 ### E. Merge Conflict Resolution
 

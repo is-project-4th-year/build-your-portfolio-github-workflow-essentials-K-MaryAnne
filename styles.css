@@ -187,6 +187,13 @@ font-size: clamp(4rem, 12vw, 8rem);
     justify-content: center;
     color: #f0f4f5;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-image p {
+    display: none;
 }
 
 /* About Page */

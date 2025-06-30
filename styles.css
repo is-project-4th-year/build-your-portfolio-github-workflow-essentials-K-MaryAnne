@@ -7,17 +7,22 @@
 
 /* Font Classes */
 .bodoni-title {
-    font-family: "Bodoni Moda", serif;
+  font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 800; 
     font-style: normal;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .bodoni-subtitle {
-    font-family: "Bodoni Moda", serif;
+   font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500; 
     font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .lato-light {
@@ -142,10 +147,13 @@ body {
 }
 
 .hero-title {
-    font-size: clamp(4rem, 12vw, 8rem);
+font-size: clamp(4rem, 12vw, 8rem);
     line-height: 0.9;
     margin-bottom: 2rem;
     color: #0e0e0e;
+    font-weight: 700; 
+    letter-spacing: -0.02em; 
+    -webkit-text-stroke: 0.5px #0e0e0e; 
 }
 
 .hero-subtitle {

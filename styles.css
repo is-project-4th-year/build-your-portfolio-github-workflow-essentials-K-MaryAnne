@@ -80,12 +80,12 @@ body {
 }
 
 .nav-dot.active {
-    background: #390007;
+    background: #AE040F;
     transform: scale(1.3);
 }
 
 .nav-dot:hover {
-    background: #390007;
+    background: #AE040F;
     transform: scale(1.2);
 }
 
@@ -158,7 +158,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 
 .hero-subtitle {
     font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-    color: #390007;
+    color: #AE040F;
     margin-bottom: 2rem;
 }
 
@@ -224,7 +224,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 
 .about-number {
     font-size: 6rem;
-    color: #390007;
+    color: #AE040F;
     position: absolute;
     top: 30px;
     right: 40px;
@@ -244,14 +244,14 @@ font-size: clamp(4rem, 12vw, 8rem);
   background: #f0f4f5;
     padding: 25px; 
     border-radius: 20px;
-    border-left: 4px solid #390007;
+    border-left: 4px solid #AE040F;
     flex-shrink: 0; 
 
 }
 
 .about-section h3 {
    font-size: 1.3rem; 
-    color: #390007;
+    color: #AE040F;
     margin-bottom: 0.8rem;
 }
 
@@ -282,7 +282,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 
 .skills-subtitle {
     font-size: 1.4rem;
-    color: #390007;
+    color: #AE040F;
     margin-bottom: 2rem;
 }
 
@@ -311,7 +311,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 
 .skill-number {
     font-size: 2rem;
-    color: #390007;
+    color: #AE040F;
     margin-bottom: 1rem;
 }
 
@@ -368,7 +368,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 
 .project-content h3 {
     font-size: 1.6rem;
-    color: #390007;
+    color: #AE040F;
     margin-bottom: 1rem;
 }
 
@@ -386,7 +386,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 }
 
 .tag {
-    background: #390007;
+    background: #AE040F;
     color: #f0f4f5;
     padding: 4px 12px;
     border-radius: 15px;
@@ -430,7 +430,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 
 .timeline-date {
     font-size: 1.1rem;
-    color: #390007;
+    color: #AE040F;
     text-align: right;
 }
 
@@ -486,7 +486,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 .quirky-card h3 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #390007;
+    color: #AE040F;
 }
 
 .quirky-card p {
@@ -517,7 +517,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 
 .contact-subtitle {
     font-size: 1.4rem;
-    color: #390007;
+    color: #AE040F;
     margin-bottom: 2rem;
 }
 
@@ -552,7 +552,7 @@ font-size: clamp(4rem, 12vw, 8rem);
 .contact-icon {
     width: 45px;
     height: 45px;
-    background: #390007;
+    background: #AE040F;
     border-radius: 50%;
     display: flex;
     align-items: center;

@@ -2,10 +2,10 @@
 
 ## 1. Student Details
 
-- **Full Name**:
-- **Admission Number**:
-- **GitHub Username**:
-- **Email**:
+- **Full Name**: Kariuki Mary Anne Njeri
+- **Admission Number**:147735
+- **GitHub Username**:@K-MaryAnne
+- **Email**:kariuki.mary@strathmore.edu
 
 ## 2. Deployed Portfolio Link
 
@@ -13,56 +13,63 @@
   _(Provide the live link to your deployed portfolio website)_
 
 ## 3. Learnings from the Git Crash Program
-
-Write about **4 things** you expected to learn during the Git crash course (yes, we all came in with some big hopes 😅).
-For each one, mention:
-
-What you thought it would be like **(Expectation 👀)**
-
-What you actually learned **(Reality 😅)**
-
-And how it helped with your personal portfolio project 💻
-
-make it honest—and if it surprised you, even better!
-
-Example format:
-
 **🧠 What I Thought I'd Learn vs What I Actually Learned**
-**1. Concept: Branching**
+**1. Concept: Commit Messages**
 
-`Expectation 👀` : I thought branching was just for developers working on big apps—nothing I’d need for a small project.
+`Expectation 👀` : I thought commit messages were just quick notes for myself, like “changed stuff”.
 
-`Reality 😅`: Turns out even solo devs need branches! It helped me avoid breaking my main code while testing new designs.
+`Reality 😅`: I learned that clear, structured commit messages make it so much easier to track what changed, when, and why especially In a team.
 
-`Impact 💡`: I created a feature branch for my "About Me" section and merged it smoothly into the main branch after testing. Super useful!
+`Impact 💡`: Writing proper commit messages helped me keep track of changes in my portfolio, like when I updated images or tweaked layouts. It made reviewing my own history less painful.
+
+**2. Concept: Merge Conflicts**
+
+`Expectation 👀` : I genuinely struggled to understand what they were and how to fix them. They felt like a nightmare.
+
+`Reality 😅`: Once I saw what conflict markers looked like and learned how to resolve them with VS Code, it started to make sense. They’re still annoying, but no longer terrifying.
+
+`Impact 💡`: Now, I can confidently resolve merge conflicts in my portfolio project when switching between branches or pulling new changes.
+
+**3. Concept: Branch Naming and Workflow**
+
+`Expectation 👀` : I assumed branch names didn’t really matter.
+
+`Reality 😅`: Clear, descriptive branch names  are so important and helpful when working on multiple features or bugs.
+
+`Impact 💡`: Using structured branch names helped me stay organized while building different sections of my portfolio website.
+
+**4. Concept: git pull vs git fetch**
+
+`Expectation 👀` :  honestly thought git pull and git fetch were basically the same thing 😭
+
+`Reality 😅`:  learned that git fetch only downloads changes without applying them, while git pull downloads and merges them into your current branch. That small difference caused a lot of confusion at first.
+
+`Impact 💡`: Understanding the distinction made me more intentional with my commands.
 
 ## 4. Screenshots of Key GitHub Features
-
-Include screenshots that demonstrate how you used GitHub to manage your project. For each screenshot, write a short caption explaining what it shows.
-
-> Upload the screenshots to your GitHub repository and reference them here using Markdown image syntax:
-> (you could just simply copy and paste the image into the Assignment.md)
-
-```markdown
-![Caption](path/to/your/image.png)
-```
-
 ### A. Milestones and Issues
 
-- Screenshot showing your milestone(s) and the issues linked to it.
+![Milestones Screenshot](Milestones.png)
 
 ### B. Project Board
 
-- Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
+![Project Board  Screenshot](assets/ProjectBoard1.png)
+![Project Board  Screenshot](assets/ProjectBoard2.png)
+![Project Board  Screenshot](assets/ProjectBoard3.png)
 
 ### C. Branching
 
-- Screenshot showing your branch list with meaningful naming.
+![Branching Screenshot](assets/Branches.png)
+![Branching Screenshot](assets/Branches2.png)
 
 ### D. Pull Requests
 
-- Screenshot of a pull request that’s either open or merged and linked to a related issue.
+
 
 ### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+![Merge Conflict Screenshot](assets/MergeConflict.png)
+![Merge Pull Request Screenshot](assets/MergePullRequest.png)
+
+![Conflict Resolution Conflict Screenshot](assets/ResolvingConflict.png)
+

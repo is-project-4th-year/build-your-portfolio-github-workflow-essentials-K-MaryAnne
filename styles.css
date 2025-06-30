@@ -97,14 +97,16 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     opacity: 0;
     transform: translateX(100%);
     transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
-    align-items: center;
+    align-items: flex-start; 
     justify-content: center;
-    padding: 60px;
+    padding: 100px 60px 40px 60px;
+    overflow-y: auto; 
+    box-sizing: border-box;
 }
 
 .page.active {
@@ -120,7 +122,7 @@ body {
 .page-content {
     max-width: 1400px;
     width: 100%;
-    height: 90%;
+    min-height: calc(100vh - 140px); 
     display: grid;
     gap: 40px;
     position: relative;
@@ -181,8 +183,10 @@ body {
 
 /* About Page */
 .about-layout {
-    grid-template-columns: 1fr 1fr;
+     grid-template-columns: 1fr 1fr;
     gap: 60px;
+    align-items: start; 
+    height: 100%; 
 }
 
 .about-left {
@@ -215,25 +219,30 @@ body {
 .about-right {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px; 
+    height: 100%;
+    overflow-y: auto; 
+    padding-right: 10px; 
 }
 
 .about-section {
-    background: #f0f4f5;
-    padding: 30px;
+  background: #f0f4f5;
+    padding: 25px; 
     border-radius: 20px;
     border-left: 4px solid #390007;
+    flex-shrink: 0; 
+
 }
 
 .about-section h3 {
-    font-size: 1.4rem;
+   font-size: 1.3rem; 
     color: #390007;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .about-section p {
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 0.95rem; 
+    line-height: 1.5; 
     color: #0e0e0e;
 }
 
@@ -372,7 +381,8 @@ body {
 /* Experience Page */
 .experience-layout {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
+    min-height: 100%;
 }
 
 .experience-header {
@@ -391,14 +401,15 @@ body {
 .experience-timeline {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px; 
+    padding-bottom: 40px; 
 }
 
 .timeline-item {
     display: grid;
     grid-template-columns: 120px 1fr;
     gap: 30px;
-    padding: 25px 0;
+    padding: 20px 0; 
     border-bottom: 1px solid #9ca0ab;
 }
 
@@ -430,8 +441,9 @@ body {
 .quirky-layout {
     background: #0e0e0e;
     border-radius: 30px;
-    padding: 60px;
+    padding: 40px; 
     color: #f0f4f5;
+    min-height: calc(100vh - 180px);
 }
 
 .quirky-title {
@@ -444,7 +456,8 @@ body {
 .quirky-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
+    gap: 20px; 
+    padding-bottom: 20px; 
 }
 
 .quirky-card {
@@ -471,7 +484,8 @@ body {
 .contact-layout {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
-    align-items: center;
+    align-items: flex-start; 
+    min-height: 100%;
 }
 
 .contact-left {
@@ -502,7 +516,8 @@ body {
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px; 
+    padding-bottom: 20px; 
 }
 
 .contact-item {
@@ -543,7 +558,13 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .page {
-        padding: 20px;
+        padding: 80px 20px 30px 20px; 
+        height: 100vh;
+        overflow-y: auto;
+    }
+    .page-content {
+        min-height: calc(100vh - 110px);
+        gap: 25px;
     }
     
     .home-layout,
@@ -559,8 +580,28 @@ body {
     }
     
     .timeline-item {
-        grid-template-columns: 1fr;
+       grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 15px 0;
+    }
+
+    .quirky-layout {
+        padding: 25px;
+        min-height: calc(100vh - 135px);
+    }
+    
+    .contact-info {
         gap: 15px;
+    }
+    
+    .about-right {
+         gap: 20px;
+        height: auto; 
+        overflow-y: visible;
+    }
+
+    .about-section {
+        padding: 20px;
     }
     
     .timeline-date {
@@ -568,8 +609,16 @@ body {
     }
     
     .nav-container {
-        top: 20px;
-        padding: 12px 25px;
+    position: fixed;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: rgba(240, 244, 245, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    padding: 12px 25px; 
+    box-shadow: 0 10px 30px rgba(57, 0, 7, 0.1);
     }
     
     .nav-dots {

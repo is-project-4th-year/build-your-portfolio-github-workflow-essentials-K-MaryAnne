@@ -1,10 +1,3 @@
-/* Reset and Base Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Font Classes */
 .bodoni-title {
   font-family: "Bodoni Moda", serif;
@@ -48,6 +41,16 @@ body {
     color: #0e0e0e;
     overflow-x: hidden;
 }
+
+
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 /* Navigation */
 .nav-container {
